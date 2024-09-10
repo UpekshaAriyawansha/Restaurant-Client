@@ -1,0 +1,197 @@
+.navbar{
+    height: 50px !important;
+}
+
+.nav-item a:hover{
+    font-size: 15px !important;
+} 
+
+.logo{
+    height: 60px !important;
+    /* border-radius: 150px !important; */
+}
+
+.search-bar{
+    border-color: #ff9900;
+    margin-left: 20px;
+    height: 35px;
+}
+
+.webBtn{
+    border-color: #ff9900;
+    background-color: #ff9900;
+    font:white !important;
+    cursor: pointer;
+    padding: auto;
+    border-radius: 5px;
+}
+
+.webBtn:hover{
+    background-color:  #ffcc00;
+    font: black !important;
+}
+
+.FaRegUser{
+    /* background-color:#ff9900; */
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #ff9900;
+    border-radius: 50px;
+    border-style:solid;
+    border-color: #ff9900;
+    padding: 5px;
+}
+
+.login{
+    height: 35px;
+    padding: auto;
+    margin-right: 20px;
+
+}
+
+
+.banner{
+position: relative;
+width:100%;
+height: 450px;
+/* padding-left:  50px; */
+
+}
+
+.banner-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 50%;
+    left: 6vw;
+    background-color:hsla(0, 0%, 0%, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left:20px;;
+}
+
+
+.menu-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menulist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: -30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+}
+
+.menulist::-webkit-scrollbar{
+    /* display: none; */
+}
+
+.menulist img{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+
+.food-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+        /* overflow-y: scroll; */
+    }
+
+.food-list img{
+    width: 7.5vw;
+    justify-content: space-between;
+    align-items: center;
+    /* min-width: 80px; */
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.food-item{
+    width: 18rem;
+    /* background-color: hsla(36, 100%, 50%, 0.5); */
+    border-style:solid;
+    border-color: #ff9900;
+}
+
+.menu-content{
+    /* line-height: 0px; */
+}
+
+hr{
+    align-items: center;
+    width: 25%;
+    height: 1px !important;
+    margin: 0 auto; 
+}
+
+.menu-text{
+    line-height: 15px !important;
+}
+
+.login-popup{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color:  transparent !important;
+    display: grid;
+
+}
+
+.popup-form{
+    place-self: center;
+    width: max(23vw, 330px);
+    color: white;
+    background-color:  #e68a00;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    animation: fadeIn 0.5s;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.close{
+    display: flex;
+    flex-direction: column;
+    margin-left:50%; /* Pushes the element to the right */
+    margin-right: 10px; /* Add some space from the right end */
+}
+
+.log-btn{
+    width:100% ;
+    border-style: solid;
+    border-color: #f7f7f6;
+}
+
+.conditions{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.conditions input{
+    margin-top: 5px !important;
+}
